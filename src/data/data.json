@@ -1,0 +1,152 @@
+[
+    {
+        "category": "Name the Tumor",
+        "questions": [
+            {
+                "img": [{
+                    "src": "./img/tumor_question1.png"
+                }],
+                "answer": "Fibrous dysplasia"
+            },
+            {
+                "img": [{
+                    "src": "./img/tumor_question2.png"
+                }],
+                "answer": "Nodular fasciitis"
+            },
+            {
+                "img": [{
+                    "src": "./img/tumor_question3.png"
+                }],
+                "answer": "SFT"
+            },
+            {
+                "img": [{
+                    "src": "./img/tumor_question4.png"
+                }],
+                "answer": "Myxofibrosarcoma"
+            },
+            {
+                "img": [{
+                    "src": "./img/tumor_question5.png"
+                }],
+                "answer": "Synovial sarcoma (biphasic)"
+            }
+        ]
+    },
+    {
+        "category": "Genetics and IHC",
+        "questions": [
+            {
+                "img": [{
+                    "src": "./img/genetics_question1.png"
+                }],
+                "answer": "GNAS"
+            },
+            {
+                "img": [{
+                    "src": "./img/genetics_question2.png"
+                }],
+                "answer": "CD34 pos, STAT6 fusion"
+            },
+            {
+                "img": [{
+                    "src": "./img/genetics_question3.png"
+                }],
+                "answer": "CTNNB1"
+            },
+            {
+                "img": [{
+                    "src": "./img/genetics_question4.png"
+                }],
+                "answer": "Cellular angiofibroma"
+            },
+            {
+                "img": [{
+                    "src": "./img/genetics_question5.png"
+                }],
+                "answer": "SS18 gene fusion"
+            }
+        ]
+    },
+    {
+        "category": "Common Location",
+        "questions": [
+            {
+                "img": [{
+                    "src": "./img/common_location_question1.png"
+                }],
+                "answer": "Retroperitoneum (DDLPS)"
+                
+            },
+            {
+                "img":[ {
+                    "src": "./img/common_location_question2.png"
+                }],
+                "answer": "Upper back/neck in males"
+                
+            },
+            {
+                "img": [{
+                    "src": "./img/common_location_question3.png"
+                }],
+                "answer": "DFSP"
+                
+            },
+            {
+                "img": [{
+                    "src": "./img/common_location_question4.png"
+                }],
+                "answer": "Epithelioid Sarcoma (proximal type)"
+                
+            },
+            {
+                "img": [{
+                    "src": "./img/common_location_question5.png"
+                }],
+                "answer": "Fibro-osseus pseudotumor of digits"
+                
+            }
+        ]
+    },
+    {
+        "category": "BST Miscellaneous",
+        "questions": [
+            {
+                "img": [{
+                    "src": "./img/bst_misc_question1.png"
+                }],
+                "answer": "Giant cell tumor of bone"
+                
+            },
+            {
+                "img": [{
+                    "src": "./img/bst_misc_question2.png"
+                }],
+                "answer": "Embryonal rhabdomyosarcoma (botryoid variant)"
+                
+            },
+            {
+                "img":[{
+                    "src": "./img/bst_misc_question3.png"
+                }],
+                "answer": "EWSR1-FLI1 t(11;12)"
+                
+            },
+            {
+                "img": [{
+                    "src": "./img/bst_misc_question4.png"
+                }],
+                "answer": "Acute Osteomyelitis"
+                
+            },
+            {
+                "img": [{
+                    "src": "./img/bst_misc_question5.png"
+                }],
+                "answer": "Langerhans cell histiocytosis"
+                
+            }
+        ]
+    }
+]

@@ -1,0 +1,17 @@
+{
+    "category" : "final_jeopardy",
+    "title": "Tumors in children/adolescents/young adults",
+    "id": "final",
+    "img" : [
+        {
+            "src": "./img/final_jeopardy_1.png"
+        },
+        {
+            "src": "./img/final_jeopardy_2.png"
+        },
+        {
+            "src": "./img/final_jeopardy_3.png"
+        }
+    ],
+    "answer": "INFLAMMATORY MYOFIBROBLASTIC TUMOR WITH ALK TRANSLOCATION"
+}
