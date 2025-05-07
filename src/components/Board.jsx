@@ -30,7 +30,7 @@ const TitleItem = styled(Paper)(({ theme }) => ({
   display: "flex",
   alignItems: "center",
   justifyContent: "center",
-  cursor: "pointer"
+  cursor: "pointer",
 }));
 
 const Transition = React.forwardRef(function Transition(props, ref) {
@@ -98,9 +98,9 @@ export default function Board() {
   const handleClose = () => {
     setOpen(false);
     setShowAnswer(false);
-    if (!viewedItems.find((item) => item.id === activeItem?.id)) {
-      setViewedItems([...viewedItems, activeItem]);
-    }
+    // if (!viewedItems.find((item) => item.id === activeItem?.id)) {
+    //   setViewedItems([...viewedItems, activeItem]);
+    // }
     //console.log("viewed item ", viewedItems.length)
     if (isDone()) setDonePrompt(true);
   };
@@ -153,6 +153,12 @@ export default function Board() {
                 color: isViewedItem(matchedQuestion?.id)
                   ? amber[400]
                   : amber[300],
+                borderStyle:
+                  activeItem &&
+                  !isViewedItem(matchedQuestion?.id) &&
+                  matchedQuestion?.id === activeItem?.id
+                    ? "dashed"
+                    : "solid",
               }}
             >
               {o}
@@ -181,7 +187,12 @@ export default function Board() {
   };
   const renderQuestionView = () => {
     const calcHeight = window.outerHeight - 232;
-    const handleButtonClick = () => setShowAnswer(true);
+    const handleButtonClick = () => {
+      setShowAnswer(true);
+      if (!viewedItems.find((item) => item.id === activeItem?.id)) {
+        setViewedItems([...viewedItems, activeItem]);
+      }
+    };
     return (
       <Dialog
         fullScreen
@@ -215,7 +226,9 @@ export default function Board() {
               overflow: "auto",
             }}
           >
-            {activeItem?.title && <Typography variant="h4">{activeItem.title}</Typography>}
+            {activeItem?.title && (
+              <Typography variant="h4">{activeItem.title}</Typography>
+            )}
             {activeItem &&
               activeItem.img &&
               activeItem.img.map((item, index) => (
@@ -270,7 +283,9 @@ export default function Board() {
           </DialogContentText>
         </DialogContent>
         <DialogActions>
-          <Button onClick={reset} variant="contained">Yes</Button>
+          <Button onClick={reset} variant="contained">
+            Yes
+          </Button>
           <Button onClick={handleClose} autoFocus variant="outlined">
             No, Thanks
           </Button>
