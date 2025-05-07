@@ -77,7 +77,7 @@ export default function Board() {
   };
 
   // TODO remove hard-coded number here
-  const isDone = () => viewedItems.length === 20;
+  const isDone = () => viewedItems.length === data.map(item => item.questions).flat().length + 1;
 
   const reset = () => {
     setActiveItem(null);
@@ -279,7 +279,7 @@ export default function Board() {
       >
         <DialogContent>
           <DialogContentText id="alert-dialog-description">
-            All questions have been viewed. Play again?
+            All questions have been answered. Play again?
           </DialogContentText>
         </DialogContent>
         <DialogActions>
