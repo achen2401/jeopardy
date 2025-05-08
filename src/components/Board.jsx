@@ -239,7 +239,7 @@ export default function Board() {
             {activeItem &&
               activeItem.img &&
               activeItem.img.map((item, index) => (
-                <Box key={`img_${index}`} sx={{ minWidth: "60%" }}>
+                <Box key={`img_${index}`}>
                   <img src={item.src} alt=""></img>
                 </Box>
               ))}
