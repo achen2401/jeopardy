@@ -1,17 +1,11 @@
 {
     "category" : "final_jeopardy",
-    "title": "Tumors in children/adolescents/young adults",
+    "title": "",
     "id": "final",
     "img" : [
         {
-            "src": "./img/final_jeopardy_1.png"
-        },
-        {
-            "src": "./img/final_jeopardy_2.png"
-        },
-        {
-            "src": "./img/final_jeopardy_3.png"
+            "src": "./img/final_jeopardy.png"
         }
     ],
-    "answer": "INFLAMMATORY MYOFIBROBLASTIC TUMOR WITH ALK TRANSLOCATION"
+    "answer": "Intimal Sarcoma"
 }
