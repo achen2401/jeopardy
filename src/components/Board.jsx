@@ -77,7 +77,8 @@ export default function Board() {
   };
 
   // TODO remove hard-coded number here
-  const isDone = () => viewedItems.length === data.map(item => item.questions).flat().length + 1;
+  const isDone = () =>
+    viewedItems.length === data.map((item) => item.questions).flat().length + 1;
 
   const reset = () => {
     setActiveItem(null);
@@ -159,6 +160,12 @@ export default function Board() {
                   matchedQuestion?.id === activeItem?.id
                     ? "dashed"
                     : "solid",
+                borderColor:
+                  activeItem &&
+                  !isViewedItem(matchedQuestion?.id) &&
+                  matchedQuestion?.id === activeItem?.id
+                    ? "#FFF"
+                    : "#444",
               }}
             >
               {o}
@@ -232,7 +239,7 @@ export default function Board() {
             {activeItem &&
               activeItem.img &&
               activeItem.img.map((item, index) => (
-                <Box key={`img_${index}`}>
+                <Box key={`img_${index}`} sx={{ minWidth: "60%" }}>
                   <img src={item.src} alt=""></img>
                 </Box>
               ))}
