@@ -12,25 +12,25 @@
                 "img": [{
                     "src": "./img/tumor_question2.png"
                 }],
-                "answer": "Nodular fasciitis"
+                "answer": "Alveolar Soft Part Sarcoma"
             },
             {
                 "img": [{
                     "src": "./img/tumor_question3.png"
                 }],
-                "answer": "SFT"
+                "answer": "CHONDROSARCOMA"
             },
             {
                 "img": [{
                     "src": "./img/tumor_question4.png"
                 }],
-                "answer": "Myxofibrosarcoma"
+                "answer": "Synovial Sarcoma"
             },
             {
                 "img": [{
                     "src": "./img/tumor_question5.png"
                 }],
-                "answer": "Synovial sarcoma (biphasic)"
+                "answer": "Epithelioid Hemangioendothelioma"
             }
         ]
     },
@@ -41,31 +41,31 @@
                 "img": [{
                     "src": "./img/genetics_question1.png"
                 }],
-                "answer": "GNAS"
+                "answer": "Clear Cell Sarcoma, B) S100 pos, HMB45 pos, EWS gene fusion"
             },
             {
                 "img": [{
                     "src": "./img/genetics_question2.png"
                 }],
-                "answer": "CD34 pos, STAT6 fusion"
+                "answer": "Solitary Fibrous Tumor, B) CD34 pos on IHC, STAT6 gene fusion"
             },
             {
                 "img": [{
                     "src": "./img/genetics_question3.png"
                 }],
-                "answer": "CTNNB1"
+                "answer": "Desmoid Fibromatosis, B) CTNNB1"
             },
             {
                 "img": [{
                     "src": "./img/genetics_question4.png"
                 }],
-                "answer": "Cellular angiofibroma"
+                "answer": "Aneurysmal bone cyst, USP6"
             },
             {
                 "img": [{
                     "src": "./img/genetics_question5.png"
                 }],
-                "answer": "SS18 gene fusion"
+                "answer": "Myxoid Liposarcoma, DDIT3"
             }
         ]
     },
@@ -76,35 +76,35 @@
                 "img": [{
                     "src": "./img/common_location_question1.png"
                 }],
-                "answer": "Retroperitoneum (DDLPS)"
+                "answer": "Retroperitoneum"
                 
             },
             {
                 "img":[ {
                     "src": "./img/common_location_question2.png"
                 }],
-                "answer": "Upper back/neck in males"
+                "answer": "Upper back and posterior neck"
                 
             },
             {
                 "img": [{
                     "src": "./img/common_location_question3.png"
                 }],
-                "answer": "DFSP"
+                "answer": "Dermatofibrosarcoma Protuberans"
                 
             },
             {
                 "img": [{
                     "src": "./img/common_location_question4.png"
                 }],
-                "answer": "Epithelioid Sarcoma (proximal type)"
+                "answer": "Epithelioid Sarcoma"
                 
             },
             {
                 "img": [{
                     "src": "./img/common_location_question5.png"
                 }],
-                "answer": "Fibro-osseus pseudotumor of digits"
+                "answer": "Giant Cell Tumor of Bone"
                 
             }
         ]
@@ -116,21 +116,21 @@
                 "img": [{
                     "src": "./img/bst_misc_question1.png"
                 }],
-                "answer": "Giant cell tumor of bone"
+                "answer": "EWSR1::FLI1 (t11::12)"
                 
             },
             {
                 "img": [{
                     "src": "./img/bst_misc_question2.png"
                 }],
-                "answer": "Embryonal rhabdomyosarcoma (botryoid variant)"
+                "answer": "Kaposi Sarcoma – HHV8 (human herpes virus 8)"
                 
             },
             {
                 "img":[{
                     "src": "./img/bst_misc_question3.png"
                 }],
-                "answer": "EWSR1-FLI1 t(11;12)"
+                "answer": "Inflammatory Myofibroblastic Tumor with ALK fusion"
                 
             },
             {
@@ -144,7 +144,7 @@
                 "img": [{
                     "src": "./img/bst_misc_question5.png"
                 }],
-                "answer": "Langerhans cell histiocytosis"
+                "answer": "Rosai Dorfman Disease"
                 
             }
         ]

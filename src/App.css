@@ -3,8 +3,9 @@ html, body, #root {
 }
 img {
   max-width: 100%;
-  width: 80%;
+  width: 100%;
   margin: auto;
   display: block;
+  object-fit: contain;
 }
 
